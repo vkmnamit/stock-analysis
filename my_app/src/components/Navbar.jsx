@@ -64,7 +64,7 @@ export default function Navbar() {
             </Link>
 
             {/* Desktop Navigation */}
-            <div className="nav-links" style={{ 
+            <div className="nav-links" style={{
                 display: 'flex',
                 gap: '0.5rem',
                 alignItems: 'center'
