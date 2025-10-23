@@ -9,20 +9,20 @@ import News from './pages/News'
 import './App.css'
 
 function App() {
-    return (
-        <BrowserRouter>
-            <Navbar />
-            <div className="container">
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/stock/:symbol" element={<Stock />} />
-                    <Route path="/crypto" element={<Crypto />} />
-                    <Route path="/watchlist" element={<Watchlist />} />
-                    <Route path="/news" element={<News />} />
-                </Routes>
-            </div>
-        </BrowserRouter>
-    )
+  return (
+    <BrowserRouter>
+      <Navbar />
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/stock/:symbol" element={<Stock />} />
+          <Route path="/crypto" element={<Crypto />} />
+          <Route path="/watchlist" element={<Watchlist />} />
+          <Route path="/news" element={<News />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
+  )
 }
 
 export default App
